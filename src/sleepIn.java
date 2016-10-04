@@ -2,8 +2,15 @@
 public class sleepIn {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		public boolean sleepIn(boolean weekday, boolean vacation) {
+			
+			if (weekday == true && vacation == false){
+				return false;
+			}else {
+				return true;
+			}
+		}
 	}
-
 }
